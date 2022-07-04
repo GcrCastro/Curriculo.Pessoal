@@ -1,0 +1,39 @@
+.grid{
+    display: grid;
+    gap: 90px;
+    grid-template-columns: 1fr 2fr;
+    grid-column: 1/-1;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 40px;
+
+
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+
+
+}
+.grid2 h1{
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 70px;
+    color: #3C3838;
+}
+.grid2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 60px;
+    color: #504C4C;
+}
+.grid2 img{
+    position: relative;
+    top: -90px;
+    left: -65px;
+}
