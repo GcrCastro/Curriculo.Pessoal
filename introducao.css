@@ -1,39 +1,45 @@
 .grid{
+    max-width: 1200px;
     display: grid;
     gap: 90px;
     grid-template-columns: 1fr 2fr;
     grid-column: 1/-1;
+    margin:0 auto;
     align-items: center;
-    padding-left: 140px;
-    padding-right: 140px;
-    padding-top: 40px;
+    padding: 40px 20px;
+    
+    
 
 
 }
 .grid2{
     display: grid;
     grid-template-columns: 1fr;
-    gap: 5px;
+    gap: 30px;
 
 
 }
 .grid2 h1{
+    max-width: 1200px;
     position: absolute;
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     line-height: 70px;
     color: #3C3838;
+    white-space:initial;
+
 }
 .grid2 p{
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 60px;
     color: #504C4C;
 }
 .grid2 img{
     position: relative;
-    top: -90px;
+    top: -50px;
     left: -65px;
 }
+
