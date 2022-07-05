@@ -1,0 +1,117 @@
+.experiencia{
+    display: grid;
+    grid-template-columns: 1fr 2 fr;
+    gap: 150px;
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 40px 20px;
+
+}
+.experiencia-2{
+    display: grid;
+    grid-column: 2;
+    gap: 40px;
+}
+.subtitulo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 150px;
+    color: #EBEBEB;
+    text-transform: uppercase;
+    margin:0;
+}
+.experiencia-texto{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #504C4C;
+}
+.exp1{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    gap: 0 20px;
+    width: 670px;
+    height:200px;
+    background: #EBEBEB;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+
+}
+.ano{
+    position: relative;
+    left: -80px;
+}
+.exp1 h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    color: #000000;
+
+}
+.desenvolvedor{
+    font-family: "Fira Sans", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    color: #000000;
+    padding-left: 120px;
+
+}
+.exp1 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.habilidades{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.habilidades1{
+    width: 60px;
+    height: 30px;
+    background: #A09C9C;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282424;
+   
+}
+.habilidades2{
+    width: 90px;
+    height: 30px;
+    background: #A09C9C;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282424;
+}
+.habilidades3{
+    width: 90px;
+    height: 30px;
+    background: #A09C9C;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282424;
+}

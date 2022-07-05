@@ -20,8 +20,9 @@
 
 }
 .grid2 h1{
-    max-width: 1200px;
+
     position: absolute;
+    font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
