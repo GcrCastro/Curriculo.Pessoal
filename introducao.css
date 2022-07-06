@@ -1,26 +1,18 @@
 .grid{
     max-width: 1200px;
     display: grid;
-    gap: 90px;
+    gap: 100px;
     grid-template-columns: 1fr 2fr;
-    grid-column: 1/-1;
     margin:0 auto;
     align-items: center;
     padding: 40px 20px;
-    
-    
-
-
 }
 .grid2{
     display: grid;
-    grid-template-columns: 1fr;
     gap: 30px;
-
-
+    align-items: center;
 }
 .grid2 h1{
-
     position: absolute;
     font-family: 'Fira Sans';
     font-style: normal;
@@ -29,7 +21,6 @@
     line-height: 70px;
     color: #3C3838;
     white-space:initial;
-
 }
 .grid2 p{
     font-style: normal;
@@ -43,4 +34,16 @@
     top: -50px;
     left: -65px;
 }
+@media(max-width: 800px){
+   .grid h1{
+        font-size: 50px; 
+        position: inherit;
+    }
+    .grid p{
+        font-size: 20px;
+    }
+    .grid img{
+        display: none;
+    }
 
+}

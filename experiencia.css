@@ -1,8 +1,8 @@
 .experiencia{
-    display: grid;
-    grid-template-columns: 1fr 2 fr;
-    gap: 150px;
     max-width: 1200px;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: 1fr 2fr;
     margin:0 auto;
     padding: 40px 20px;
 
@@ -19,7 +19,12 @@
     line-height: 150px;
     color: #EBEBEB;
     text-transform: uppercase;
-    margin:0;
+    word-break: break-all;
+    max-width: 4ch;
+}
+.exp-principal{
+    display: grid;
+    gap: 40px;
 }
 .experiencia-texto{
     font-style: normal;
@@ -27,23 +32,36 @@
     font-size: 32px;
     line-height: 48px;
     color: #504C4C;
+    padding-bottom: 30px;
 }
 .exp1{
+    position: relative;
     display: grid;
     grid-template-columns: 3fr 4fr;
     gap: 0 20px;
-    width: 670px;
-    height:200px;
     background: #EBEBEB;
     padding: 10px 20px;
     border-radius: 5px;
-    position: absolute;
-
 }
 .ano{
-    position: relative;
-    left: -80px;
+    position:absolute;
+    top: 10px;
+    left: -50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #504C4C;
 }
+.detalhe{
+    position: absolute;
+    width: 43px;
+    height: 10px;
+    background: #02B5C0;
+    top:35px;
+    left:-30px;
+}
+
 .exp1 h3{
     font-style: normal;
     font-weight: 700;
