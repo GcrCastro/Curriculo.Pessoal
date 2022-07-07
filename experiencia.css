@@ -1,5 +1,6 @@
 .experiencia{
     max-width: 1200px;
+    min-width:300px;
     display: grid;
     gap: 100px;
     grid-template-columns: 1fr 2fr;
@@ -132,4 +133,37 @@
     font-size: 14px;
     line-height: 17px;
     color: #282424;
+}
+@media (max-width:800px){
+    .experiencia{
+        grid-template-columns: 1fr;
+        gap:40px;
+    }
+    .subtitulo{
+        font-size: 40px;
+        word-break:normal;
+        max-width:initial;
+        color:#282424 ;
+    }
+    .experiencia-texto{
+        font-size:20px ;
+    }
+    .exp1{
+        font-size: 10px;
+    }
+    .ano{
+        position: initial;
+        order: 1;
+    }
+    .desenvolvedor{
+        text-align: center;
+        padding-left: 50px;
+    }
+}
+@media (max-width:400px){
+    .exp1{
+        grid-template-columns: 1fr;
+    }
+    .desenvolvedor{
+        padding-left: 0px;
 }

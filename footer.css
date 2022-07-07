@@ -1,0 +1,46 @@
+.rodape{
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 300px;
+}
+.disponibilidade{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+    padding-top: 120px;
+}
+.footer{
+    position: relative;
+}
+.img-contato{
+    display: block;
+    position: absolute;
+    top:195px;
+    left: 460px;
+    color: blue;
+}
+.contatos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: lowercase;
+    color: #000000;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.direitos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: #787474;
+
+}
