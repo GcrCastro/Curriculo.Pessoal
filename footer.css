@@ -13,23 +13,27 @@
     line-height: 36px;
     color: #000000;
     padding-top: 120px;
-}
-.footer{
     position: relative;
 }
-.img-contato{
+.disponibilidade::after{
+    content: " ";
     display: block;
     position: absolute;
-    top:195px;
-    left: 460px;
+    width:32px;
+    height: 32px;
     color: blue;
+    background: url(./icone-contato.svg),no-repeat,center;
+    top: 160px;
+    left: 400px;
 }
+
 .contatos{
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
     text-transform: lowercase;
+    word-break: break-all;
     color: #000000;
     padding-top: 120px;
     display: flex;
@@ -42,5 +46,25 @@
     font-size: 20px;
     line-height: 38px;
     color: #787474;
-
 }
+@media (max-width: 900px){
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .disponibilidade{
+        font-size: 24px;
+        padding-top: 40px;
+    }
+    .disponibilidade::after{
+        display: none;
+    }
+    .contatos{
+        font-size: 20px;
+    }
+    .direitos{
+        font-size: 16px;
+    }
+}
+

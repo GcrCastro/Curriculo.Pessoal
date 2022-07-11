@@ -1,7 +1,6 @@
 .formacao{
     background-color: #282424;
     max-width: 1200px;
-    min-height: 800px;
     padding: 40px 20px;
     margin: 0 auto;
     display: grid;
@@ -19,6 +18,7 @@
     word-break: break-all;
     color: #000000;
     padding-top: 120px;
+    max-width: 5ch;
 }
 .formacao-grid{
     display: flex;
@@ -92,4 +92,50 @@ span{
 .detalhe-formacao{
     position: absolute;
     bottom:-100px;
+}
+@media (max-width:800px){
+    .formacao{
+        gap: 40px;
+    }
+    .paragrafo{
+        padding-top: 40px;
+        font-size: 24px;
+    }
+    .formacao h2{
+        font-size: 100px;
+        padding-top: 40px;
+    }
+    .curso{
+        padding: 10px 10px;
+        font-size:16px ;
+    }
+    .idioma{
+        font-size: 16px;
+    }
+    .detalhe-formacao{
+        display: none;
+    }
+
+}
+@media (max-width:400px){
+    .formacao h2{
+        padding-top: 20px;
+        font-size: 50px;
+    }
+    .paragrafo{
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    .detalhe-formacao{
+        display: none;
+    }
+    .curso p{
+        font-size:16px ;  
+    }
+    .idioma{
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    
 }
